@@ -1,0 +1,55 @@
+export default {
+  welcome: 'Welcome to React Native ChatApp',
+  actions: {
+    continue: 'Continue',
+  },
+  example: {
+    helloUser: 'I am a fake user, my name is {{name}}',
+    labels: {
+      userId: 'Enter a user id',
+    },
+  },
+  searchbar: {
+    heading: 'Messages',
+    title: 'Search bar',
+    placeholder: 'Find your conversation',
+  },
+  containers: {
+    conversations: 'Conversations',
+    setting: 'Settings',
+    addConversation: 'New conversation',
+  },
+  settings: {
+    updateProfile: 'Update Profile',
+    appTheme: 'Use Dark Mode',
+    logout: 'Logout',
+    language: 'Language',
+    vietnamese: 'Tiếng Việt',
+    us: 'English',
+  },
+  auth: {
+    login: 'Login',
+    register: 'Register',
+    forgot: 'Forgot password',
+    verify: 'Verify account',
+    toRegister:
+      'Wanna join with us?\n 🥳 Fill in our Registration form here! 🧾 ',
+    toLogin: '👉 Back to Login screen',
+    toForgot: 'Forgot your password? 😢',
+    usernameOrEmail: 'Username or email',
+    username: 'Username',
+    password: 'Password',
+    email: 'Email',
+    phone: 'Phone number',
+    firstName: 'First name',
+    lastName: 'Last name',
+    invalidUsername: 'Invalid username',
+    invalidPassword: 'Invalid password format (at least 8 characters long)',
+    invalidEmail: 'Invalid email format',
+    invalidPhone: 'Invalid phone format',
+    required: 'This field is required',
+    submit: 'Submit',
+    wait: 'Please, wait for {{seconds}}',
+    reSendOtp: 'Re-send new OTP code',
+  },
+}
