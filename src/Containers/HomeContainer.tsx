@@ -20,25 +20,25 @@ const HomeContainer = () => {
           { flexGrow: 1 },
         ]}
       >
-        <ConversationItem onPress={() => navigateAndSimpleReset('Main')} />
-        <ConversationItem onPress={() => navigateAndSimpleReset('Main')} />
-        <ConversationItem onPress={() => navigateAndSimpleReset('Main')} />
-        <ConversationItem onPress={() => navigateAndSimpleReset('Main')} />
-        <ConversationItem onPress={() => navigateAndSimpleReset('Main')} />
-        <ConversationItem onPress={() => navigateAndSimpleReset('Main')} />
-        <ConversationItem onPress={() => navigateAndSimpleReset('Main')} />
-        <ConversationItem onPress={() => navigateAndSimpleReset('Main')} />
-        <ConversationItem onPress={() => navigateAndSimpleReset('Main')} />
-        <ConversationItem onPress={() => navigateAndSimpleReset('Main')} />
-        <ConversationItem onPress={() => navigateAndSimpleReset('Main')} />
-        <ConversationItem onPress={() => navigateAndSimpleReset('Main')} />
-        <ConversationItem onPress={() => navigateAndSimpleReset('Main')} />
-        <ConversationItem onPress={() => navigateAndSimpleReset('Main')} />
-        <ConversationItem onPress={() => navigateAndSimpleReset('Main')} />
-        <ConversationItem onPress={() => navigateAndSimpleReset('Main')} />
-        <ConversationItem onPress={() => navigateAndSimpleReset('Main')} />
-        <ConversationItem onPress={() => navigateAndSimpleReset('Main')} />
-        <ConversationItem onPress={() => navigateAndSimpleReset('Main')} />
+        <ConversationItem onPress={() => navigateAndSimpleReset('ChatScreen')} />
+        <ConversationItem onPress={() => navigateAndSimpleReset('ChatScreen')} />
+        <ConversationItem onPress={() => navigateAndSimpleReset('ChatScreen')} />
+        <ConversationItem onPress={() => navigateAndSimpleReset('ChatScreen')} />
+        <ConversationItem onPress={() => navigateAndSimpleReset('ChatScreen')} />
+        <ConversationItem onPress={() => navigateAndSimpleReset('ChatScreen')} />
+        <ConversationItem onPress={() => navigateAndSimpleReset('ChatScreen')} />
+        <ConversationItem onPress={() => navigateAndSimpleReset('ChatScreen')} />
+        <ConversationItem onPress={() => navigateAndSimpleReset('ChatScreen')} />
+        <ConversationItem onPress={() => navigateAndSimpleReset('ChatScreen')} />
+        <ConversationItem onPress={() => navigateAndSimpleReset('ChatScreen')} />
+        <ConversationItem onPress={() => navigateAndSimpleReset('ChatScreen')} />
+        <ConversationItem onPress={() => navigateAndSimpleReset('ChatScreen')} />
+        <ConversationItem onPress={() => navigateAndSimpleReset('ChatScreen')} />
+        <ConversationItem onPress={() => navigateAndSimpleReset('ChatScreen')} />
+        <ConversationItem onPress={() => navigateAndSimpleReset('ChatScreen')} />
+        <ConversationItem onPress={() => navigateAndSimpleReset('ChatScreen')} />
+        <ConversationItem onPress={() => navigateAndSimpleReset('ChatScreen')} />
+        <ConversationItem onPress={() => navigateAndSimpleReset('ChatScreen')} />
       </ScrollView>
     </UILayout>
   )

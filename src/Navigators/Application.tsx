@@ -12,6 +12,8 @@ import { ApplicationProvider, IconRegistry } from '@ui-kitten/components'
 import { EvaIconsPack } from '@ui-kitten/eva-icons'
 import AuthContainer from '@/Containers/AuthContainer'
 import BottomTabNavigator from '@/Navigators/BottomTab'
+import ChatScreen from '../Containers/ChatScreen'
+import EditUserinfo from '../Containers/EditUserinfo'
 
 const Stack = createStackNavigator()
 
@@ -49,10 +51,20 @@ const ApplicationNavigator = () => {
                 }}
               />
               <Stack.Screen
+                name="ChatScreen"
+                component={ChatScreen}
+                options={{ animationEnabled: false }}
+              />
+              <Stack.Screen
+                name="EditUserinfo"
+                component={EditUserinfo}
+                options={{ animationEnabled: false }}
+              />              
+              <Stack.Screen
                 name="Auth"
                 component={AuthContainer}
                 options={{ animationEnabled: false }}
-              />
+              />                                
             </Stack.Navigator>
           </NavigationContainer>
         </SafeAreaView>

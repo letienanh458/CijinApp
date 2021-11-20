@@ -97,7 +97,7 @@ const SettingContainer = ({ navigation }: Props) => {
           >
             {t('containers.setting') as string}
           </Text>
-          <TouchableOpacity style={[Layout.fullWidth, Gutters.largeHPadding]}>
+          <TouchableOpacity style={[Layout.fullWidth, Gutters.largeHPadding]} onPress={() => navigation.navigate("EditUserinfo")}>
             <View
               style={[
                 Layout.row,
